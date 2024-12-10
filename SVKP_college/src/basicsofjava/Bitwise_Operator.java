@@ -7,27 +7,25 @@ public class Bitwise_Operator {
 	        int b = 3;  // 0011 in binary
 
 	        // Bitwise AND
-	        System.out.println("a & b: " + (a & b));  // 0001 = 1
+	        System.out.println("a & b: " + (a & b));  
 
 	        // Bitwise OR
-	        System.out.println("a | b: " + (a | b));  // 0111 = 7
+	        System.out.println("a | b: " + (a | b));  
 
 	        // Bitwise XOR 
-	//The XOR operator (^) compares two bits.
-	//The result is 1 if the bits are different, and 0 if the bits are the same.
-	        System.out.println("a ^ b: " + (a ^ b));  // 0110 = 6
+	      
+	        System.out.println("a ^ b: " + (a ^ b)); 
 
 	        // Bitwise NOT
-	        System.out.println("~a: " + (~a));  // Inverts all bits, result depends on system
-
+	        System.out.println("~a: " + (~a));  
+	        
 	        // Left shift
-	        System.out.println("a << 2: " + (a << 2));  // 0101 becomes 10100 = 20
-	    //multiples a number by 2^b  5*2^2 ->5*4 =20
+	        System.out.println("a << 2: " + (a << 2));  
 	       
 	        
 	        // Right shift
-	        System.out.println("a >> 2: " + (a >> 2));  // 0101 becomes 0001 = 1
-	        //divide the number by 2^b   5/2^2-> 5/4 =1
+	        System.out.println("a >> 2: " + (a >> 2));  
+	        
 	}
 
 }

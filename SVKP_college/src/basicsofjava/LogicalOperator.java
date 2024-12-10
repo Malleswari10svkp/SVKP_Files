@@ -7,15 +7,15 @@ public class LogicalOperator {
 		
 		//Logical AND
 		
-		System.out.println("(a>b) && (b<c)" + ((a>b) && (b<c))); //true
-		
+		System.out.println("(a>b) && (b<c)" + ((a>b) && (b<c))); 
+	
 		//Logical OR
 		
-		System.out.println("(a>b) || (b>c)" + ((a>b) || (b>c) ));//true
+		System.out.println("(a>b) || (b>c)" + ((a>b) || (b>c) ));
 		
 		//Logical NOT
 		
-		System.out.println("!(a>b) " + !(a>b));//false
+		System.out.println("!(a>b) " + !(a>b));
 
 
 	}
