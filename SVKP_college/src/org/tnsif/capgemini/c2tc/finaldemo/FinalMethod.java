@@ -15,7 +15,7 @@ class cal
 }
 class advcalc extends cal
 {
-	public void finalshow()
+	public void cal.show()
 	{
 		System.out.println("AI integration done by venkanna");
 		

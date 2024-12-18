@@ -1,28 +1,36 @@
-
 package org.tnsif.capgemini.c2tc.finaldemo;
 
-final class calc //hema
+class cal
 {
-	public void show()
+	public final void show()
 	{
 		System.out.println("AI integration done by hema");
+		
 	}
-}
-
-class adavcalc extends  cal //yasar
-{
-	public void finalshow()
+	public void add(int a,int b)
 	{
-		System.out.println("AI integration done by yasar");
+		System.out.println(a+b);
+	}
+}
+class advcalc extends cal
+{
+	public void calshow()
+	{
+		System.out.println("AI integration done by venkanna");
+		
+	}
+	public void add(int a,int b)
+	{
+		System.out.println(a+b);
 	}
 }
 
-
-
-public class Finalclass {
+public class FinalMethod {
 
 	public static void main(String[] args) {
-		
+		advcalc obj=new advcalc();
+		obj.show();
+		obj.add(4, 5);
 
 	}
 
